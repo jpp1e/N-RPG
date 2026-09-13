@@ -1,0 +1,35 @@
+누알피지 1차 배포 설치 안내
+
+이 패키지는 각 사용자가 자신의 Supabase 프로젝트와 Cloudflare Pages를 이용해 누알피지를 설치하는 방식입니다.
+
+설치 시작 전
+
+1. Windows에서 내려받은 ZIP 파일을 바로 압축 해제했을 때 JavaScript 파일이 차단되거나 누락되는 경우가 있습니다.
+2. ZIP 파일을 마우스 오른쪽 버튼으로 누른 뒤 속성을 엽니다.
+3. 하단에 차단 해제 항목이 보이면 체크한 뒤 적용합니다.
+4. 그 다음 새 폴더에 압축을 풉니다.
+5. setup-helper.html과 이 INSTALL.txt를 함께 열어 둡니다.
+
+설치 순서
+
+1. setup-helper.html을 Chrome 또는 Edge에서 엽니다.
+2. 설치 마법사의 안내에 따라 새 Supabase 프로젝트를 만듭니다.
+3. Project URL과 Publishable Key를 설치 마법사에 입력합니다.
+4. 설치 마법사의 설치 SQL 전체 복사 버튼을 눌러 Supabase SQL Editor에서 한 번 실행합니다.
+5. Authentication에서 Allow anonymous sign-ins를 켭니다.
+6. Edge Functions에 jpp1e-assets와 jpp1e-push를 각각 만들고 설치 마법사의 코드를 붙여넣어 배포합니다.
+7. 두 Function의 Settings에서 Verify JWT with legacy secret를 끄고 저장합니다.
+8. 설치 마법사에서 VAPID 키를 만들고 VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT를 Supabase Secrets에 저장합니다.
+9. 설치 마법사의 Cloudflare 업로드 ZIP 만들기 버튼으로 누알피지_Cloudflare_업로드.zip을 생성합니다.
+10. Cloudflare Pages의 Drag and drop 업로드에 해당 ZIP을 올리고 배포합니다.
+11. 발급된 pages.dev 주소에서 누알피지 로비가 열리면 설치가 완료된 것입니다.
+
+보안 주의
+
+Project URL과 Publishable Key는 공개 클라이언트 설정에 사용하는 값입니다.
+Secret key, service_role key, VAPID private key, 데이터베이스 비밀번호는 공개하거나 다른 사람에게 보내지 마세요.
+
+문제가 생겼을 때
+
+TROUBLESHOOTING.md를 먼저 확인하세요.
+AI에게 도움을 받을 경우 오류 화면, 브라우저 개발자 도구 Console의 실제 오류, 사용 중인 파일, TROUBLESHOOTING.md를 함께 제공하는 것을 권장합니다.

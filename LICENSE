@@ -1,0 +1,104 @@
+누알피지 (N-RPG) Source-Available License
+
+Software: 누알피지 (N-RPG)
+Licensor: 재플 (jpp1e)
+Copyright (c) 2026 재플 (jpp1e)
+
+This software is provided under the MIT License, subject to the
+“Commons Clause” License Condition v1.0 stated below.
+
+
+1. MIT LICENSE
+
+MIT License
+
+Copyright (c) 2026 재플 (jpp1e)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+2. “COMMONS CLAUSE” LICENSE CONDITION v1.0
+
+“Commons Clause” License Condition v1.0
+
+The Software is provided to you by the Licensor under the License, as defined
+below, subject to the following condition.
+
+Without limiting other conditions in the License, the grant of rights under
+the License will not include, and the License does not grant to you, the right
+to Sell the Software.
+
+For purposes of the foregoing, “Sell” means practicing any or all of the rights
+granted to you under the License to provide to third parties, for a fee or
+other consideration (including without limitation fees for hosting or
+consulting/ support services related to the Software), a product or service
+whose value derives, entirely or substantially, from the functionality of the
+Software. Any license notice or attribution required by the License must also
+include this Commons Clause License Condition notice.
+
+Software: 누알피지 (N-RPG)
+License: MIT License
+Licensor: 재플 (jpp1e)
+
+
+3. USER CONTENT AND THIRD-PARTY RIGHTS
+
+The Software provides technical tools that may display, transmit, store, or
+play text, images, audio, video, game materials, and other content selected by
+its users.
+
+No license or permission for such third-party content is granted by this
+License.
+
+Each user is responsible for ensuring that their use of third-party materials
+complies with applicable copyright, trademark, privacy, publicity,
+contractual, platform, and other legal requirements.
+
+The technical ability to display, upload, embed, play, or stream content
+through the Software does not represent a statement that such content may
+lawfully be used, broadcast, redistributed, or commercially exploited.
+
+
+4. THIRD-PARTY COMPONENTS
+
+Third-party libraries, fonts, services, and other components included in or
+used by the Software remain subject to their own respective licenses and terms.
+
+See THIRD_PARTY_NOTICES.md for details.
+
+
+5. KOREAN SUMMARY
+
+다음은 이해를 돕기 위한 요약이며 위 라이선스 본문을 대체하지 않습니다.
+
+허용:
+- 개인 및 단체 사용
+- 수정
+- 개인용 수정본 비공개 보관
+- 무료 재배포
+
+제한:
+- 누알피지 자체 판매
+- 누알피지를 이름만 바꾸거나 최소한으로 수정하여 판매
+- 누알피지 자체의 기능을 전부 또는 상당 부분 그대로 제공하는 유료 호스팅 또는 서비스
+
+재배포 시 이 LICENSE와 필요한 저작권 고지를 유지해야 합니다.
+
+이 라이선스는 사용자가 올리거나 재생하는 시나리오, 이미지, 음악, 영상,
+캐릭터, 상표 등 제3자 콘텐츠의 이용권을 제공하지 않습니다.
