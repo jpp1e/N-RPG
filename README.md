@@ -48,7 +48,7 @@ Supabase의 secret key, service-role key, VAPID private key, 데이터베이스 
 - `setup-helper.html` : 누알피지 설치 마법사
 - `INSTALL.txt` : 설치 안내
 - `TROUBLESHOOTING.md` : 오류 진단 및 확인된 해결 사례
-- `SHA256SUMS.txt` : 배포 파일 무결성 확인용 체크섬
+- `README.md` : 누알피지 소개 및 설치·배포 안내
 - `LICENSE` : 라이선스
 - `THIRD_PARTY_NOTICES.md` : 제3자 구성요소 및 라이선스 고지
 
