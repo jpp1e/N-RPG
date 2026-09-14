@@ -12,6 +12,10 @@ GM과 플레이어가 온라인 방에 접속해 캐릭터와 세션 정보를 �
 
 설치 과정에서는 새 전용 Supabase 프로젝트를 사용하세요. 설치 마법사에 포함된 clean-install SQL은 기존 누알피지 데이터베이스의 업그레이드용이 아닙니다.
 
+## 룰 시스템
+
+누알피지는 특정 상용 TRPG 룰 시스템을 내장하지 않는 범용 세션 도구입니다. 판정이 필요한 경우 자유 주사위 기능을 사용하고, 각 테이블의 룰은 사용자가 직접 운용합니다.
+
 ## 설치
 
 1. `INSTALL.txt`를 열어 둡니다.
@@ -48,7 +52,7 @@ Supabase의 secret key, service-role key, VAPID private key, 데이터베이스 
 - `setup-helper.html` : 누알피지 설치 마법사
 - `INSTALL.txt` : 설치 안내
 - `TROUBLESHOOTING.md` : 오류 진단 및 확인된 해결 사례
-- `README.md` : 누알피지 소개 및 설치·배포 안내
+- `SHA256SUMS.txt` : 배포 파일 무결성 확인용 체크섬
 - `LICENSE` : 라이선스
 - `THIRD_PARTY_NOTICES.md` : 제3자 구성요소 및 라이선스 고지
 
