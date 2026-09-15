@@ -28,6 +28,20 @@ GM과 플레이어가 온라인 방에 접속해 캐릭터와 세션 정보를 �
 
 설치가 완료되면 배포된 누알피지 페이지에 접속해 로비가 정상적으로 표시되는지 확인하세요.
 
+## 이미 설치한 누알피지 업데이트하기
+
+이미 설치를 완료한 사용자는 Supabase 프로젝트를 새로 만들거나 설치 SQL을 다시 실행하지 않습니다. 기존 방, 캐릭터, 로그 등의 데이터는 그대로 유지됩니다.
+
+1. 최신 `setup-helper.html`을 다운로드해 브라우저에서 실행합니다.
+2. 기존 누알피지에서 사용하던 Supabase `Project URL`과 `Publishable Key`를 설치 마법사 첫 입력란에 그대로 입력합니다.
+3. 신규 설치용 Supabase SQL, Auth, Edge Function, VAPID 설정 단계는 다시 실행하지 않습니다.
+4. 설치 마법사의 `Cloudflare 업로드 ZIP 만들기` 버튼으로 최신 `누알피지_Cloudflare_업로드.zip`을 생성합니다.
+5. Cloudflare Dashboard에서 기존 누알피지가 올라가 있는 **같은 Pages 프로젝트**를 엽니다. 새 Pages 프로젝트를 만들지 않습니다.
+6. 기존 프로젝트에서 `Create a new deployment`를 선택하고, 생성한 ZIP을 **Production** 배포로 업로드합니다.
+7. 기존에 사용하던 누알피지 주소로 접속해 업데이트가 반영되었는지 확인합니다.
+
+이 업데이트 방식은 설치 마법사로 처음 설치한 누알피지의 공통 업데이트 절차입니다. `config.js`는 기존 Project URL과 Publishable Key로 새로 생성되므로 별도로 수정할 필요가 없습니다.
+
 ## Windows 사용자 주의사항
 
 Windows에서는 인터넷에서 받은 ZIP 파일 내부의 일부 JavaScript 파일을 보안 기능이 차단하는 경우가 있습니다.
