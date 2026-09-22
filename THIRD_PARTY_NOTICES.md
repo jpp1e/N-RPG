@@ -4,60 +4,60 @@
 
 ## html2canvas
 
-- Version: 1.4.1
-- License: MIT License
+- 버전: 1.4.1
+- 라이선스: MIT License
 - 사용 범위: 브라우저 화면을 Canvas로 렌더링하여 PDF 및 백업 기능 구현
 - 배포 시: 원 프로젝트의 저작권 및 MIT License 고지 유지
-- Upstream: niklasvh/html2canvas
+- 원 프로젝트: [niklasvh/html2canvas 1.4.1](https://github.com/niklasvh/html2canvas/tree/v1.4.1)
 
 ## jsPDF
 
-- Version: 2.5.1
-- License: MIT License
+- 버전: 2.5.1
+- 라이선스: MIT License
 - 사용 범위: 브라우저에서 PDF 파일 생성
 - 배포 시: 원 프로젝트의 저작권 및 MIT License 고지 유지
-- Upstream: parallax/jsPDF
+- 원 프로젝트: [parallax/jsPDF 2.5.1](https://github.com/parallax/jsPDF/tree/v2.5.1)
 
 ## @supabase/supabase-js
 
-- Version: 2.57.4
-- License: MIT License
-- 사용 범위: 브라우저에서 Supabase Auth 및 관련 클라이언트 기능 사용
+- 버전: 2.57.4
+- 라이선스: MIT License
+- 사용 범위: 브라우저에서 Supabase Auth 및 관련 클라이언트 기능 사용, jpp1e-push Edge Function에서 Supabase 클라이언트 사용
 - 배포 시: 원 프로젝트의 MIT License 및 저작권 고지 유지
-- Upstream: supabase/supabase-js
+- 원 프로젝트: [supabase/supabase-js 2.57.4](https://github.com/supabase/supabase-js/tree/v2.57.4)
 
 ## @supabase/server
 
-- Version: 1.5.3
-- License: MIT License
-- 사용 범위: jpp1e-assets Edge Function에서 Supabase 서버 기능 사용
+- 버전: 1.5.3
+- 라이선스: MIT License
+- 사용 범위: jpp1e-assets Edge Function에서 Supabase 서버 기능 사용 (`jsr:@supabase/server@1.5.3`)
 - 배포 시: 원 프로젝트의 MIT License 및 저작권 고지 유지
-- Upstream: @supabase/server
+- 원 프로젝트: [@supabase/server 1.5.3 (JSR)](https://jsr.io/@supabase/server/1.5.3)
 
 ## web-push
 
-- Version: 3.6.7
-- License: Mozilla Public License 2.0 (MPL-2.0)
+- 버전: 3.6.7
+- 라이선스: Mozilla Public License 2.0 (MPL-2.0)
 - 사용 범위: Web Push / VAPID 알림 전송
 - 형태: 패키지 의존성으로 사용
-- 주의: MPL-2.0 적용을 받는 upstream 코드 및 해당 코드의 수정본에는 MPL-2.0 조건이 계속 적용됩니다. 누알피지의 독립적인 자체 코드 전체가 MPL-2.0으로 바뀌는 것은 아닙니다.
-- Upstream: web-push-libs/web-push
+- 재배포 시: MPL-2.0이 적용되는 코드와 그 수정본에는 해당 라이선스 조건이 유지됩니다. 실행 형태로 배포할 때는 해당 소스 코드를 받을 수 있는 방법도 안내해야 합니다. MPL 코드가 포함되지 않은 별도 파일의 독립적인 자체 코드까지 자동으로 MPL-2.0이 적용되지는 않습니다. 자세한 조건은 [MPL-2.0 원문](https://www.mozilla.org/en-US/MPL/2.0/)과 [공식 FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/)를 확인하세요.
+- 원 프로젝트: [web-push-libs/web-push 3.6.7](https://github.com/web-push-libs/web-push/tree/v3.6.7)
 
 ## Pretendard
 
-- License: SIL Open Font License 1.1
+- 라이선스: SIL Open Font License 1.1
 - 사용 범위: 한국어 및 UI 표시용 웹폰트
-- 배포 시: 폰트 파일을 재배포하는 경우 원 저작권 고지와 SIL OFL 1.1 조건 유지
-- Upstream: orioncactus/pretendard
+- 배포 시: 폰트 파일을 재배포하는 경우 원 저작권 고지와 SIL OFL 1.1 전문을 함께 제공하고 해당 조건 유지
+- 원 프로젝트: [orioncactus/pretendard](https://github.com/orioncactus/pretendard), [라이선스 원문](https://github.com/orioncactus/pretendard/blob/main/LICENSE)
 
 ## SUIT
 
-- License: SIL Open Font License 1.1
+- 라이선스: SIL Open Font License 1.1
 - 사용 범위: UI 표시용 웹폰트
-- 배포 시: 폰트 파일을 재배포하는 경우 원 저작권 고지와 SIL OFL 1.1 조건 유지
-- Upstream: sun-typeface/SUIT
+- 배포 시: 폰트 파일을 재배포하는 경우 원 저작권 고지와 SIL OFL 1.1 전문을 함께 제공하고 해당 조건 유지
+- 원 프로젝트: [sun-typeface/SUIT](https://github.com/sun-typeface/SUIT), [라이선스 원문](https://github.com/sun-typeface/SUIT/blob/master/LICENSE)
 
-## External Services
+## 외부 서비스
 
 다음 항목은 오픈소스 코드 라이선스와 별도로 각 서비스 제공자의 이용약관이 적용됩니다.
 
@@ -81,10 +81,12 @@ Supabase 호스팅 서비스의 이용에는 Supabase의 서비스 약관이 별
 
 Cloudflare Pages 이용에는 Cloudflare의 해당 서비스 약관이 적용됩니다.
 
-## CDN
+### CDN
 
 일부 프런트엔드 라이브러리는 공개 CDN을 통해 제공될 수 있습니다. CDN은 라이브러리 전달 수단이며 각 라이브러리 자체의 라이선스는 원 프로젝트의 라이선스를 따릅니다.
 
-## Distribution Notes
+## 재배포 시 고지
 
-누알피지와 함께 배포되거나 외부에서 불러오는 제3자 구성 요소에는 각 upstream 프로젝트의 저작권, 라이선스 및 이용 조건이 각각 적용됩니다. 자세한 조건은 각 upstream 프로젝트의 라이선스를 확인해 주세요.
+누알피지와 함께 배포되거나 외부에서 불러오는 제3자 구성 요소에는 각 원 프로젝트의 저작권, 라이선스 및 이용 조건이 각각 적용됩니다. 자세한 조건은 각 원 프로젝트의 라이선스를 확인해 주세요.
+
+이 문서는 구성 요소와 적용 조건을 안내하는 목록이며, 각 구성 요소의 저작권 고지와 라이선스 전문을 대신하지 않습니다. 재배포할 때는 원본에 포함된 고지와 라이선스 전문도 해당 조건에 맞게 유지해야 합니다.

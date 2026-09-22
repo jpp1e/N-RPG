@@ -1,35 +1,24 @@
-누알피지 1차 배포 설치 안내
+누알피지 신규 설치 안내
+누알피지는 함께 플레이하는 사람 중 한 명만 설치하면 됩니다. GM과 플레이어는 설치자가 만든 같은 누알피지 주소에서 플레이합니다.
+이미 누알피지를 사용 중이라면 신규 설치를 진행하지 말고 UPDATE-GUIDE.ko.md를 확인하세요.
 
-이 패키지는 각 사용자가 자신의 Supabase 프로젝트와 Cloudflare Pages를 이용해 누알피지를 설치하는 방식입니다.
-
-설치 시작 전
-
-1. Windows에서 내려받은 ZIP 파일을 바로 압축 해제했을 때 JavaScript 파일이 차단되거나 누락되는 경우가 있습니다.
-2. ZIP 파일을 마우스 오른쪽 버튼으로 누른 뒤 속성을 엽니다.
-3. 하단에 차단 해제 항목이 보이면 체크한 뒤 적용합니다.
-4. 그 다음 새 폴더에 압축을 풉니다.
-5. setup-helper.html과 이 INSTALL.txt를 함께 열어 둡니다.
-
-설치 순서
-
-1. setup-helper.html을 Chrome 또는 Edge에서 엽니다.
-2. 설치 마법사의 안내에 따라 새 Supabase 프로젝트를 만듭니다.
-3. Project URL과 Publishable Key를 설치 마법사에 입력합니다.
-4. 설치 마법사의 설치 SQL 전체 복사 버튼을 눌러 Supabase SQL Editor에서 한 번 실행합니다.
-5. Authentication에서 Allow anonymous sign-ins를 켭니다.
-6. Edge Functions에 jpp1e-assets와 jpp1e-push를 각각 만들고 설치 마법사의 코드를 붙여넣어 배포합니다.
-7. 두 Function의 Settings에서 Verify JWT with legacy secret를 끄고 저장합니다.
-8. 설치 마법사에서 VAPID 키를 만들고 VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT를 Supabase Secrets에 저장합니다.
-9. 설치 마법사의 Cloudflare 업로드 ZIP 만들기 버튼으로 누알피지_Cloudflare_업로드.zip을 생성합니다.
-10. Cloudflare Pages의 Drag and drop 업로드에 해당 ZIP을 올리고 배포합니다.
-11. 발급된 pages.dev 주소에서 누알피지 로비가 열리면 설치가 완료된 것입니다.
-
-보안 주의
-
-Project URL과 Publishable Key는 공개 클라이언트 설정에 사용하는 값입니다.
-Secret key, service_role key, VAPID private key, 데이터베이스 비밀번호는 공개하거나 다른 사람에게 보내지 마세요.
-
-문제가 생겼을 때
-
-TROUBLESHOOTING.md를 먼저 확인하세요.
-AI에게 도움을 받을 경우 오류 화면, 브라우저 개발자 도구 Console의 실제 오류, 사용 중인 파일, TROUBLESHOOTING.md를 함께 제공하는 것을 권장합니다.
+설치하기
+1. 받은 ZIP 파일의 압축을 새 폴더에 풉니다. Windows에서 ZIP 파일의 속성 → 차단 해제가 보인다면 먼저 체크하고 압축을 풀어주세요.
+2. 압축을 푼 폴더의 setup-helper.html을 Chrome 또는 Edge로 엽니다. 화면에 나오는 설치 마법사를 순서대로 따라가면 됩니다.
+3. 설치 마법사의 안내에 따라 Supabase에 누알피지용 새 프로젝트를 만들고 연결합니다. 다른 누알피지를 이미 사용 중인 프로젝트에는 새로 설치하지 마세요.
+4. 마법사가 Realtime 준비 확인을 요청하면 안내된 내용을 Supabase의 SQL Editor에 복사해 실행합니다.
+   - 결과가 모두 준비된 것으로 표시되면 다음 단계로 갑니다.
+   - 준비되지 않은 항목이 있다면 마법사에 표시되는 Realtime → Inspector 안내를 따라간 뒤 다시 확인합니다.
+   - 계속 준비되지 않는다면 설치를 진행하지 말고 TROUBLESHOOTING.md를 확인하세요.
+5. 데이터베이스 설치 → 이미지 기능 → 푸시 알림 설정도 설치 마법사의 순서대로 진행합니다. 코드나 이름은 임의로 바꾸지 말고 마법사에서 제공하는 내용을 그대로 사용하세요.
+6. 설치 마법사에서 Cloudflare에 올릴 ZIP 파일을 만듭니다. 마법사의 안내에 따라 Cloudflare Pages에 올리면 누알피지 주소가 만들어집니다.
+7. 설치된 누알피지에서 GM 시험 방을 하나 만들고 방 코드 → 설치 연결 진단을 실행합니다. 모두 정상으로 표시되는지 확인합니다.
+8. 다른 브라우저나 시크릿 창에서 플레이어로 한 번 접속해 봅니다. GM과 플레이어가 서로 보낸 메시지를 받을 수 있고, 새로고침과 재접속까지 정상이라면 설치 완료입니다.
+플레이어를 초대할 때
+플레이어는 누알피지를 따로 설치할 필요가 없습니다.
+설치한 누알피지 사이트 주소 + 초대 코드를 함께 전달하세요. 최초 입장 이후에는 재접속 코드를 사용합니다.
+오랜만에 접속했는데 연결되지 않는다면
+무료 Supabase 프로젝트는 사용하지 않는 기간이 길어지면 일시정지될 수 있습니다. Supabase에서 프로젝트 상태를 확인하고, 중지되어 있다면 화면의 안내에 따라 다시 활성화한 뒤 누알피지를 새로고침하세요.
+꼭 지켜주세요
+설치 마법사에서 비밀 키를 요구하지 않는 곳에는 비밀 키를 입력하지 마세요.
+secret/service_role key, VAPID private key, DB 비밀번호, 관리 키, 초대·재접속 코드는 다른 사람에게 공개하지 마세요.
